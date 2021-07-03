@@ -1,0 +1,21 @@
+{
+  "name": "canon-relay",
+  "version": "1.0.0",
+  "description": "vanilla.jsx vitejs template",
+  "scripts": {
+    "dev": "vite --port $PORT",
+    "vercel:dev": "vercel dev",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "author": "Momijiichigo",
+  "license": "MIT",
+  "devDependencies": {
+    "bluejsx": "latest",
+    "vite": "^2.1.5"
+  },
+  "dependencies": {
+    "firebase": "^9.0.0-beta.6",
+    "firebaseui": "^4.8.0"
+  }
+}
